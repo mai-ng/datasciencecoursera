@@ -22,4 +22,9 @@ rbind(x, y)
 
 ### create a factor with default levels
 
-fac1 <- factor(c("yes", "no", "no", "yes"))
+fac1 <- factor(c("yes", "no", "no", "yes")) #levels: no yes
+
+### create a factor with defined levels
+fac2 <- factor(c("yes", "no", "no", "yes"), levels = c("yes", "no"))
+
+# Names
